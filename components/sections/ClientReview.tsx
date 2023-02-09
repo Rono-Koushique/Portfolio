@@ -1,9 +1,9 @@
 import React from "react";
 import Wall from "../containers/Wall";
 import Image from "next/image";
-import ClientImage from "@/public/images/client-pic.png";
-import Shape from "@/public/images/shape2.svg";
-import Shape3 from "@/public/images/shape3.svg";
+import ClientImage from "public/images/client-pic.png";
+import Shape from "public/images/shape2.svg";
+import Shape3 from "public/images/shape3.svg";
 import HorzAnime from "../extras/HorzAnime";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";

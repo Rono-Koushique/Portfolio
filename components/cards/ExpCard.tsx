@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { Icon } from "@iconify/react";
-import shape from "@/public/images/shape1.svg";
+import shape from "public/images/shape1.svg";
 
 type Props = {
     icon: string;

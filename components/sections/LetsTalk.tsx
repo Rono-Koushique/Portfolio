@@ -2,7 +2,7 @@ import React from "react";
 import Wall from "../containers/Wall";
 import Image from "next/image";
 import HorzAnime from "../extras/HorzAnime";
-import Shape4 from "@/public/images/shape4.svg";
+import Shape4 from "public/images/shape4.svg";
 import PrimaryBtn from "../buttons/PrimaryBtn";
 
 type Props = {};

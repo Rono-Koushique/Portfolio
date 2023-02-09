@@ -1,10 +1,10 @@
 import React from "react";
 import Wall from "../containers/Wall";
 import HorzAnime from "../extras/HorzAnime";
-import WebDev from "@/public/images/webDev.png";
-import Dbms from "@/public/images/dbms.png";
-import Uiux from "@/public/images/uiux.png";
-import MobApp from "@/public/images/mobApp.png";
+import WebDev from "public/images/webDev.png";
+import Dbms from "public/images/dbms.png";
+import Uiux from "public/images/uiux.png";
+import MobApp from "public/images/mobApp.png";
 import ProjectCard from "../cards/ProjectCard";
 
 type Props = {};
