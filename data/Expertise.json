@@ -1,0 +1,19 @@
+{
+    "expertise" : [
+        {
+            "icon": "carbon:application-web",
+            "title": "Frontend development",
+            "text": "I am skilled in creating visually pleasing and user-friendly front-end web designs"
+        },
+        {
+            "icon": "clarity:rack-server-outline-badged",
+            "title": "Backend development",
+            "text": "I specialize in creating efficient, reliable and scalable backend systems for web applications"
+        },
+        {
+            "icon": "carbon:application-mobile",
+            "title": "App development",
+            "text": "I design and develop high-performing, user-friendly mobile applications for iOS and Android"
+        }
+    ]
+}

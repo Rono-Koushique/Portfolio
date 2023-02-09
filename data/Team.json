@@ -1,0 +1,39 @@
+{
+    "team" : [
+        {
+            "img": "ikram.jpg",
+            "name": "Ikramul Hossain",
+            "post": "Team Manager"
+        },
+        {
+            "img": "sany.jpg",
+            "name": "Rabi us Sany",
+            "post": "Marketing Manager"
+        },
+        {
+            "img": "rono.jpg",
+            "name": "Rono Koushiqe",
+            "post": "Project Manager"
+        },
+        {
+            "img": "redwan.jpg",
+            "name": "Redwanul Ratu",
+            "post": "Backend Developer"
+        },
+        {
+            "img": "rana.jpg",
+            "name": "Rana Ahmed",
+            "post": "Mobile App Developer"
+        },
+        {
+            "img": "masrur.jpg",
+            "name": "Apon Masrur",
+            "post": "Backend Developer"
+        },
+        {
+            "img": "jayed.jpg",
+            "name": "Jayed Hassan",
+            "post": "UI/UX Designer"
+        }
+    ]
+}

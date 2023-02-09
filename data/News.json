@@ -1,0 +1,22 @@
+{
+    "news": [
+        {
+            "src": "news1.jpg",
+            "publish_date": "Auguest 19, 2022",
+            "title": "ByteStack Hires New Marketing Manager",
+            "body": "ByteStack, a leading web and mobile development company, has announced the hiring of Rabi Us Sany as their new marketing manager. Sany brings with him extensive experience in digital marketing and is expected to help drive the company's growth and success. ByteStack CEO, John Doe, said in a statement, 'We're thrilled to have Rabi on board. His skills and experience will be instrumental in taking our marketing efforts to the next level.'"
+        },
+        {
+            "src": "news2.jpg",
+            "publish_date": "February 14, 2022",
+            "title": "ByteStack shifted to NextJS-13, the Latest Version",
+            "body": "ByteStack, has announced that it will be migrating all its Next.js projects to the latest version, Next.js 13. The upgrade is aimed at providing clients with better performance and improved user experience. ByteStack CTO, Jane Doe, said in a statement, 'Our team is dedicated to staying ahead of the curve and providing the best possible solution for our clients. The upgrade to Next.js 13 will allow us to deliver even better results for our clients.'"
+        },
+        {
+            "src": "news3.jpg",
+            "publish_date": "April 7, 2022",
+            "title": "ByteStack is searching for an UI/UX Developer",
+            "body": "ByteStack has stated that it will be hiring UI/UX developer to expand its team. The new hire will help the company provide even more comprehensive solutions to clients. ByteStack CEO, John Doe, said in a statement, 'We're always looking to expand our team and bring on top talent. This new hire will help us deliver even more innovative and effective solutions to our clients.'"
+        }
+    ]
+}

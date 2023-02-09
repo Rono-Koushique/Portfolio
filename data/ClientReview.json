@@ -1,0 +1,19 @@
+{
+    "client-review": [
+        {
+            "name": "Sarah Johnson",
+            "post": "CEO of Johnson Enterprises",
+            "review": "Rono Koushique designed and developed our company's website and CMS system, and I have to say, I was thoroughly impressed with the level of professionalism and expertise displayed throughout the entire project. The team truly took the time to understand our vision and brought it to life in a way that exceeded all of our expectations."
+        },
+        {
+            "name": "Michael Rodriguez",
+            "post": "CTO of ABC Inc.",
+            "review": "As the CTO of ABC Inc., I have worked with many web development companies over the years. But my experience with Rono Koushique stands out above the rest. Their UX/UI design skills are second to none, and their ability to translate our ideas into a functional and visually appealing mobile application was truly remarkable."
+        },
+        {
+            "name": "Emily Davis",
+            "post": "Owner of Davis Creative",
+            "review": "I had the pleasure of working with Rono Koushique on a website redesign project for my company, Davis Creative. From start to finish, the entire process was seamless and stress-free. The team was incredibly responsive and took the time to understand my vision and incorporate my feedback every step of the way."
+        }
+    ]
+}

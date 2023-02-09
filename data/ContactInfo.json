@@ -1,0 +1,19 @@
+{
+    "contactData": [
+        {
+            "icon": "mdi:address-marker",
+            "title": "Address",
+            "value": "Uttara, Dhaka, Bangladesh"
+        },
+        {
+            "icon": "material-symbols:mail-sharp",
+            "title": "Mail",
+            "value": "ronokoushiquepm@gmail.com"
+        },
+        {
+            "icon": "material-symbols:call",
+            "title": "Phone",
+            "value": "+880 1689 798659"
+        }
+    ]
+}

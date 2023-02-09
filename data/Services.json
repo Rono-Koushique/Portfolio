@@ -1,0 +1,40 @@
+{
+    "services": [
+        {
+            "icon": "cil:browser",
+            "title": "Frontend Develop",
+            "description": "Specializing in creating visually appealing and user-friendly websites and applications.",
+            "href": ""
+        },
+        {
+            "icon": "clarity:rack-server-outline-badged",
+            "title": "Backend Develop",
+            "description": "Expert in delivering secure, scalable, and efficient server-side solutions.",
+            "href": ""
+        },
+        {
+            "icon": "mdi:database-cog-outline",
+            "title": "Database Management",
+            "description": "Skilled in offering efficient solutions for data storage, manipulation, and retrieval.",
+            "href": ""
+        },
+        {
+            "icon": "gg:if-design",
+            "title": "UI/UX Design",
+            "description": "Specializing in creating intuitive and visually appealing user interfaces through research and testing.",
+            "href": ""
+        },
+        {
+            "icon": "clarity:deploy-line",
+            "title": "Website Deployment",
+            "description": "Experienced in launching and maintaining websites with seamless efficiency and reliable performance.",
+            "href": ""
+        },
+        {
+            "icon": "carbon:application",
+            "title": "Mobile Applications",
+            "description": "Specializing in delivering high-quality, feature-rich, and user-friendly mobile apps for iOS and Android.",
+            "href": ""
+        }
+    ]
+}

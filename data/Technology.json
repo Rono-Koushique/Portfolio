@@ -1,0 +1,52 @@
+{
+    "technology": [
+        {
+            "icon": "logos:react",
+            "title": "ReactJS"
+        },
+        {
+            "icon": "logos:nextjs-icon",
+            "title": "NextJS"
+        },
+        {
+            "icon": "logos:tailwindcss-icon",
+            "title": "Tailwind CSS"
+        },
+        {
+            "icon": "logos:bootstrap",
+            "title": "Bootstrap CSS"
+        },
+        {
+            "icon": "simple-icons:chakraui",
+            "title": "ChakraUI"
+        },
+        {
+            "icon": "logos:framer",
+            "title": "Framer Motion"
+        },
+        {
+            "icon": "logos:nodejs",
+            "title": "NodeJS"
+        },
+        {
+            "icon": "skill-icons:expressjs-light",
+            "title": "ExpressJS"
+        },
+        {
+            "icon": "logos:django-icon",
+            "title": "Django"
+        },
+        {
+            "icon": "vscode-icons:file-type-mongo",
+            "title": "MongoDB"
+        },
+        {
+            "icon": "logos:mysql",
+            "title": "MySQL"
+        },
+        {
+            "icon": "logos:postgresql",
+            "title": "PostgresSQL"
+        }
+    ]
+}
