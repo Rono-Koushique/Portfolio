@@ -1,0 +1,22 @@
+[
+    {
+        "title": "github",
+        "href": "",
+        "icon": "mdi:github"
+    },
+    {
+        "title": "twitter",
+        "href": "",
+        "icon": "ant-design:twitter-circle-filled"
+    },
+    {
+        "title": "facebook",
+        "href": "",
+        "icon": "ic:baseline-facebook"
+    },
+    {
+        "title": "linkedin",
+        "href": "",
+        "icon": "mdi:linkedin"
+    }
+]

@@ -1,0 +1,117 @@
+[
+    {
+        "title": "Frontend Development",
+        "description": [
+            "Proficient in HTML, CSS, JS",
+            "Popular frameworks and Libraries",
+            "Responsive Design",
+            "State management",
+            "Build Tools like WEBPACK"
+        ],
+        "technologies": [
+            {
+                "icon": "logos:react",
+                "title": "ReactJS"
+            },
+            {
+                "icon": "logos:nextjs-icon",
+                "title": "NextJS"
+            },
+            {
+                "icon": "logos:tailwindcss-icon",
+                "title": "TailwindCSS"
+            },
+            {
+                "icon": "logos:bootstrap",
+                "title": "Bootstrap"
+            },
+            {
+                "icon": "simple-icons:chakraui",
+                "title": "ChakraUI"
+            },
+            {
+                "icon": "logos:framer",
+                "title": "Framer Motion"
+            },
+            {
+                "icon": "logos:redux",
+                "title": "Redux"
+            }
+        ]
+    },
+    {
+        "title": "Backend Development",
+        "description": [
+            "Profficent in server-side languages",
+            "RESTful APIs and server-side data handling",
+            "Familiarity with databases and ORMs"
+        ],
+        "technologies": [
+            {
+                "icon": "logos:nodejs",
+                "title": "NodeJS"
+            },
+            {
+                "icon": "logos:python",
+                "title": "Python"
+            },
+            {
+                "icon": "skill-icons:expressjs-light",
+                "title": "ExpressJS"
+            },
+            {
+                "icon": "logos:django-icon",
+                "title": "Django"
+            },
+            {
+                "icon": "vscode-icons:file-type-mongo",
+                "title": "MongoDB"
+            },
+            {
+                "icon": "logos:mysql",
+                "title": "MySQL"
+            },
+            {
+                "icon": "logos:postgresql",
+                "title": "PostgresSQL"
+            },
+            {
+                "icon": "vscode-icons:file-type-light-prisma",
+                "title": "Prisma"
+            }
+        ]
+    },
+    {
+        "title": "Web development tools",
+        "description": [
+            "Version control systems",
+            "Package managers",
+            "Command-line proficiency and shell scripting",
+            "Browser developer tools"
+        ],
+        "technologies": [
+            {
+                "title": "npm"
+            },
+            { "title": "yarn" }
+        ]
+    },
+    {
+        "title": "Additional Skills",
+        "description": [
+            "Familiarity with design tools",
+            "Knowledge of UI/UX principles and best practices",
+            "Experience with cloud platforms and services",
+            "Strong problem-solving and critical thinking abilities"
+        ],
+        "technologies": [
+            {
+                "title": "Adobe XD"
+            },
+            {
+                "title": "Figma"
+            },
+            { "title": "Firebase" }
+        ]
+    }
+]

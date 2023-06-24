@@ -1,0 +1,55 @@
+[
+    {
+        "title": "Medilife",
+        "type": "Blogsite",
+        "timeStart": "January 31, 2021",
+        "timeEnd": "March 31, 2021",
+        "description": "A medical blogsite for a client. He was from Bangladesh and wanted it for his startup.",
+        "imgLink": "https://images2.imgbox.com/bb/8c/VO0auwgA_o.png",
+        "liveLink": "https://medilife.vercel.app/",
+        "features": [
+            "User registration and login functionality",
+            "Ability for registered users to submit and publish blog articles",
+            "Categorization of blog articles by medical topics",
+            "Search functionality to easily find articles by keywords",
+            "Commenting system for readers to engage in discussions",
+            "Social media sharing options for articles",
+            "Responsive design for optimal viewing on different devices"
+        ]
+    },
+    {
+        "title": "Tech Store",
+        "type": "E-commerce",
+        "timeStart": "July 1, 2022",
+        "timeEnd": "September 30, 2022",
+        "description": "An online store for selling technology products, including electronics, gadgets, and accessories.",
+        "imgLink": "https://images2.imgbox.com/f9/31/BY3XpQnz_o.png",
+        "liveLink": "",
+        "features": [
+            "Product catalog with detailed descriptions and images",
+            "User registration and authentication",
+            "Shopping cart functionality",
+            "Secure online payment integration",
+            "Order tracking and history",
+            "Customer reviews and ratings",
+            "Responsive design for mobile and desktop"
+        ]
+    },
+    {
+        "title": "Creative Portfolio",
+        "type": "Portfolio",
+        "timeStart": "April 1, 2023",
+        "timeEnd": "June 30, 2023",
+        "description": "A personal portfolio website showcasing the creative works and achievements of a web designer.",
+        "imgLink": "https://images2.imgbox.com/71/d3/AYbcXppo_o.png",
+        "liveLink": "",
+        "features": [
+            "Home page with introduction and featured projects",
+            "Portfolio section with project showcases",
+            "Skills and expertise display",
+            "Resume/CV download",
+            "Contact form for inquiries",
+            "Responsive design for optimal viewing on different devices"
+        ]
+    }
+]
