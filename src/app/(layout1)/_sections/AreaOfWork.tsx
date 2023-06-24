@@ -7,7 +7,7 @@ type Props = {
     areasOfWork: Area[];
 };
 
-export default async function AreasOfWork({ areasOfWork }: Props) {
+export default function AreasOfWork({ areasOfWork }: Props) {
     return (
         <section className="flex flex-col py-20">
             <div className="flex flex-col text-white font-roboto font-normal px-10">

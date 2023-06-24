@@ -5,18 +5,17 @@ import AboutMe from "./_sections/AboutMe";
 import RecentWorks from "./_sections/RecentWorks";
 import AreaOfWork from "./_sections/AreaOfWork";
 import Footer from "./_sections/Footer";
+import fetchPageData from "./_utils/fetchPageData";
 
 type Props = {};
 
-async function getPageData() {
-    const res = await fetch("http://127.0.0.1:3000/api/page-data");
-    const data = await res.json();
+function getPageData() {
+    const data = fetchPageData();
     return data.results;
 }
 
-export default async function Home({}: Props) {
-    const { services, areasOfWork, recentWorks, socials } = await getPageData();
-
+export default function Home({}: Props) {
+    const { services, areasOfWork, recentWorks, socials } = getPageData();
     return (
         <main>
             <Banner />

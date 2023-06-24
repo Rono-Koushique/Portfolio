@@ -4,7 +4,7 @@ type Props = {
     socials: Social[];
 };
 
-export default async function Footer({ socials }: Props) {
+export default function Footer({ socials }: Props) {
     return (
         <section className="py-8 border-t-[3px] border-neutral-500/10">
             <div className="flex flex-col items-center gap-4 px-10 text-white">

@@ -18,7 +18,7 @@ type Work = {
 };
 
 type Technology = {
-    icon: string;
+    icon?: string;
     title: string;
 };
 
