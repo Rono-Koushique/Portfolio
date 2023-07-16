@@ -2,9 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+}
+
 @layer components {
+    .text-3-4 {
+        @apply leading-loose text-neutral-300;
+    }
+    .text-1 {
+        @apply text-xl text-neutral-300 leading-loose;
+    }
+
     .section-title {
-        @apply text-3xl font-semibold mt-2;
+        @apply text-4xl font-semibold mt-2;
     }
 
     .section-subtitle {

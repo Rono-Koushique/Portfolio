@@ -21,30 +21,19 @@ type Props = {
 
 export default function RecentWorks({ recentWorks }: Props) {
     return (
-        <section className="flex flex-col py-36 lg:py-40">
-            <div className="flex flex-col w-full max-w-screen-xl mx-auto text-white mg:items-center font-roboto font-normal px-10">
-                <h4 className="section-subtitle">A few of my</h4>
-                <h3 className="mt-2 section-title">Recent Works</h3>
-                <div className="mt-4">
+        <section className="py-36 lg:py-40">
+            <div className="flex flex-col px-5 mg:px-10 lg:px-14 xl:px-20 w-full max-w-screen-2xl mx-auto text-white items-center font-roboto font-normal">
+                <h4 className="section-subtitle font-poppins">A few of my</h4>
+                <h3 className="section-title mt-2 font-arial">Recent Works</h3>
+                <div className="mt-6">
                     <HorzAnime />
                 </div>
-            </div>
-            <div className="flex flex-col gap-6 mg:gap-8 text-white font-roboto font-normal mt-10 px-10">
-                {recentWorks &&
-                    recentWorks.map((work: Work, idx: number) => {
-                        if (idx === recentWorks.length - 1)
-                            return (
-                                <React.Fragment key={idx}>
-                                    <WorkCard work={work} />
-                                </React.Fragment>
-                            );
-                        return (
-                            <React.Fragment key={idx}>
-                                <WorkCard work={work} />
-                                <div className="w-2 aspect-square rounded-full bg-neutral-700 mg:hidden" />
-                            </React.Fragment>
-                        );
-                    })}
+                <div className="flex flex-col gap-20 xl:gap-32 text-white mt-20 w-full">
+                    {recentWorks &&
+                        recentWorks.map((work: Work, idx: number) => {
+                            return <WorkCard work={work} key={idx} />;
+                        })}
+                </div>
             </div>
         </section>
     );
@@ -70,8 +59,8 @@ type CardProps = {
 
 function WorkCard({ work }: CardProps) {
     return (
-        <div className="relative w-full">
-            <div className="relative w-full aspect-[16/9] rounded-md overflow-hidden">
+        <div className="relative w-full flex flex-col xl:flex-row items-center gap-10 xl:gap-12">
+            <div className="relative w-full xl:w-[58%] aspect-[16/9] rounded-md overflow-hidden">
                 <Image
                     className="object-contain object-top"
                     fill={true}
@@ -79,13 +68,16 @@ function WorkCard({ work }: CardProps) {
                     alt={work.title}
                 />
             </div>
-            <div className="relative z-10 w-full flex flex-col items-start mt-2">
-                <span className="mt-3 text-teal-400 leading-none">
-                    www.{work.title.toLowerCase().replaceAll(" ", "")}.com
-                </span>
-                <span className="mt-3 lowercase font-light leading-none">
-                    {work.type}
-                </span>
+            <div className="relative z-10 flex flex-col xl:w-[42%] items-center gap-6 xl:items-start xl:text-left text-center">
+                <h1 className="font-arial text-white text-2xl font-bold leading-none">
+                    {work.title}
+                </h1>
+                <p className="font-poppins text-3-4">{work.description}</p>
+                <div>
+                    <button className="font-arial lg:text-lg font-bold px-6 py-3 bg-teal-600 hover:bg-teal-500 active:bg-teal-700 rounded-md shadow-[0_2px_14px_0] shadow-teal-600/40 hover:shadow-teal-500/40 transition duration-200 ease-in-out">
+                        View Live
+                    </button>
+                </div>
             </div>
         </div>
     );

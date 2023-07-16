@@ -43,22 +43,28 @@ function Card({ skill, idx }: CardProps) {
         <div
             className={`px-7 py-12 lg:px-12 lg:py-20 flex flex-col mg:items-center mg:text-center ${
                 idx !== 0 ? "border-t lg:border-t-0 lg:border-l-2 border-neutral-950" : ""
-            } text-[1.1rem] leading-[2] text-neutral-300`}
+            } text-neutral-300`}
             key={skill.title}
         >
-            <Icon className="text-4xl text-teal-500" icon={skill.icon} />
-            <span className="mt-4 text-teal-500 text-2xl font-bold">{skill.title}</span>
-            <span className="mt-6">{skill.description}</span>
-            <span className="mt-12 text-white text-xl font-semibold">Technologies</span>
-            <span className="mt-4">
+            <Icon className="text-5xl text-teal-500" icon={skill.icon} />
+            <span className="mt-4 font-arial text-teal-500 text-3xl font-bold">
+                {skill.title}
+            </span>
+            <span className="mt-6 font-poppins text-3-4">{skill.description}</span>
+            <span className="mt-12 font-arial text-white text-xl font-bold">
+                Technologies
+            </span>
+            <span className="mt-4 font-poppins text-3-4">
                 {skill.technologies
-                    .map((technology, idx) => {
+                    .map((technology) => {
                         return technology;
                     })
                     .join(", ")}
             </span>
-            <span className="mt-12 text-white text-xl font-semibold">Other Skills</span>
-            <ul className="mt-4 flex flex-col gap-1 list-disc mg:list-none ml-5 mg:ml-0">
+            <span className="mt-12 font-arial text-white text-xl font-bold">
+                Other Skills
+            </span>
+            <ul className="mt-4 flex flex-col gap-1 font-poppins text-3-4 list-disc mg:list-none ml-5 mg:ml-0">
                 {skill.extra.map((text, idx) => {
                     return <li key={`extra-${idx}`}>{text}</li>;
                 })}

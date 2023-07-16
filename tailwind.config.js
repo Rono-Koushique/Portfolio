@@ -18,8 +18,9 @@ module.exports = {
                 "2xl": "1441px",
             },
             fontFamily: {
-                roboto: ["var(--font-roboto)"],
-                playball: ["var(--font-playball)"],
+                arial: ["Arial", "sans-serif"],
+                poppins: ["var(--font-poppins)"],
+                montez: ["var(--font-montez)"],
             },
         },
     },
