@@ -1,11 +1,10 @@
 import React from "react";
 import Banner from "./_sections/Banner";
-import Services from "./_sections/Services";
 import AboutMe from "./_sections/AboutMe";
 import RecentWorks from "./_sections/RecentWorks";
-import AreaOfWork from "./_sections/AreaOfWork";
 import Footer from "./_sections/Footer";
 import fetchPageData from "./_utils/fetchPageData";
+import Skills from "./_sections/Skills";
 
 type Props = {};
 
@@ -15,13 +14,12 @@ function getPageData() {
 }
 
 export default function Home({}: Props) {
-    const { services, areasOfWork, recentWorks, socials } = getPageData();
+    const { skills, recentWorks, socials } = getPageData();
     return (
         <main>
-            <Banner />
-            <Services services={services} />
+            <Banner socials={socials} />
             <AboutMe />
-            <AreaOfWork areasOfWork={areasOfWork} />
+            <Skills skills={skills} />
             <RecentWorks recentWorks={recentWorks} />
             <Footer socials={socials} />
         </main>

@@ -1,3 +1,14 @@
+type Skill = {
+    icon: string;
+    title: string;
+    description: string;
+    technologies: string[];
+    subtitle: string;
+    extra: string[];
+    projectCount: number;
+    href: string;
+};
+
 type Service = {
     icon: string;
     title: string;

@@ -22,6 +22,14 @@
         position: relative !important;
         z-index: 10;
     }
+
+    .social-bar-link:first-child {
+        @apply rounded-tr;
+    }
+
+    .social-bar-link:last-child {
+        @apply rounded-br;
+    }
 }
 
 @layer utilities {

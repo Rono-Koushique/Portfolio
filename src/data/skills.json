@@ -1,0 +1,65 @@
+[
+    {
+        "icon": "ic:round-view-day",
+        "title": "Frontend Dev",
+        "description": "Create visually appealing and user-friendly websites and applications.",
+        "technologies": [
+            "ReactJS",
+            "NextJS",
+            "Redux",
+            "TailwindCSS",
+            "Bootstrap",
+            "ChakraUI",
+            "Framer Motion"
+        ],
+        "subtitle": "Other expertise",
+        "extra": [
+            "HTML, CSS, JS",
+            "Popular Javascript frameworks",
+            "Responsive Design",
+            "State management",
+            "Webpack"
+        ],
+        "projectCount": 3,
+        "href": ""
+    },
+    {
+        "icon": "ph:code-fill",
+        "title": "Backend Dev",
+        "description": "Deliver secure, scalable, and efficient server-side solutions.",
+        "technologies": [
+            "NodeJS",
+            "Python",
+            "ExpressJS",
+            "Django",
+            "MongoDB",
+            "MySQL",
+            "Prisma"
+        ],
+        "subtitle": "Additional Skills",
+        "extra": [
+            "Database Query",
+            "Restful API",
+            "server-side data handling",
+            "Object Oriented Programing",
+            "Problem Solving"
+        ],
+        "projectCount": 2,
+        "href": ""
+    },
+    {
+        "icon": "ic:baseline-window",
+        "title": "UI/UX Design",
+        "description": "Create intuitive and visually appealing user interfaces through research and testing.",
+        "technologies": ["Figma", "AdobeXD", "Adobe Illustrator", "Adobe Photoshop"],
+        "subtitle": "",
+        "extra": [
+            "Design tools",
+            "UI/UX principles",
+            "Best Practice",
+            "Mobile First Designs"
+        ],
+        "projectCount": 4,
+        "href": ""
+    }
+]

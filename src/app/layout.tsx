@@ -18,18 +18,10 @@ const playball = Playball({
     variable: "--font-playball",
 });
 
-export default function RootLayout({
-    children,
-}: {
-    children: React.ReactNode;
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
     return (
         <html lang="en">
-            <body
-                className={`${roboto.variable} ${playball.variable} bg-neutral-950`}
-            >
-                {children}
-            </body>
+            <body className={`${roboto.variable} ${playball.variable}`}>{children}</body>
         </html>
     );
 }

@@ -5,18 +5,23 @@
         "icon": "mdi:github"
     },
     {
+        "title": "linkedin",
+        "href": "",
+        "icon": "mdi:linkedin"
+    },
+    {
+        "title": "mail",
+        "href": "",
+        "icon": "material-symbols:mail"
+    },
+    {
         "title": "twitter",
         "href": "",
-        "icon": "ant-design:twitter-circle-filled"
+        "icon": "mdi:twitter"
     },
     {
         "title": "facebook",
         "href": "",
-        "icon": "ic:baseline-facebook"
-    },
-    {
-        "title": "linkedin",
-        "href": "",
-        "icon": "mdi:linkedin"
+        "icon": "mdi:facebook"
     }
 ]
