@@ -5,7 +5,7 @@ type Props = {};
 
 export default function AboutMe({}: Props) {
     return (
-        <section className="flex py-36 pb-80">
+        <section className="flex py-36 pb-72">
             <div className="flex flex-col mg:items-center mg:text-center text-white font-roboto font-normal px-10 mx-auto">
                 <h4 className="section-subtitle font-poppins">Background</h4>
                 <h3 className="section-title mt-2 font-arial">About Me</h3>

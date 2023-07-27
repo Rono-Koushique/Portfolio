@@ -3,6 +3,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import HorzAnime from "../_components/extra/HorzAnime";
 import Image from "next/image";
+import SmallBtn from "../_components/buttons/SmallBtn";
 
 // framer motion animation variant
 const containerVariant = {
@@ -28,7 +29,7 @@ export default function RecentWorks({ recentWorks }: Props) {
                 <div className="mt-6">
                     <HorzAnime />
                 </div>
-                <div className="flex flex-col gap-20 xl:gap-32 text-white mt-20 w-full">
+                <div className="flex flex-col gap-20 xl:gap-28 text-white mt-20 w-full">
                     {recentWorks &&
                         recentWorks.map((work: Work, idx: number) => {
                             return <WorkCard work={work} key={idx} />;
@@ -59,8 +60,8 @@ type CardProps = {
 
 function WorkCard({ work }: CardProps) {
     return (
-        <div className="relative w-full flex flex-col xl:flex-row items-center gap-10 xl:gap-12">
-            <div className="relative w-full xl:w-[58%] aspect-[16/9] rounded-md overflow-hidden">
+        <div className="relative w-full flex flex-col xl:flex-row items-center gap-10 xl:gap-14">
+            <div className="relative w-full xl:w-[54%] aspect-[16/9] rounded-md overflow-hidden">
                 <Image
                     className="object-contain object-top"
                     fill={true}
@@ -74,9 +75,7 @@ function WorkCard({ work }: CardProps) {
                 </h1>
                 <p className="font-poppins text-3-4">{work.description}</p>
                 <div>
-                    <button className="font-arial lg:text-lg font-bold px-6 py-3 bg-teal-600 hover:bg-teal-500 active:bg-teal-700 rounded-md shadow-[0_2px_14px_0] shadow-teal-600/40 hover:shadow-teal-500/40 transition duration-200 ease-in-out">
-                        View Live
-                    </button>
+                    <SmallBtn text="View Live" />
                 </div>
             </div>
         </div>

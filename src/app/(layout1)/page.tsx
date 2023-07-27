@@ -5,6 +5,7 @@ import RecentWorks from "./_sections/RecentWorks";
 import Footer from "./_sections/Footer";
 import fetchPageData from "./_utils/fetchPageData";
 import Skills from "./_sections/Skills";
+import MailMe from "./_sections/MailMe";
 
 type Props = {};
 
@@ -21,6 +22,7 @@ export default function Home({}: Props) {
             <AboutMe />
             <Skills skills={skills} />
             <RecentWorks recentWorks={recentWorks} />
+            <MailMe />
             <Footer socials={socials} />
         </main>
     );

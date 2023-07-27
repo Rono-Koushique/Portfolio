@@ -1,7 +1,7 @@
 "use client";
 import { Icon } from "@iconify/react";
 import Image from "next/image";
-import skillsBg from "@/asset/image/skills-bg.jpg";
+import backgroundImage from "@/asset/image/mail-bg.jpg";
 import React from "react";
 
 type Props = {
@@ -13,8 +13,8 @@ export default function Skills({ skills }: Props) {
         <section className="flex relative pb-36 lg:pb-40">
             <div className="absolute top-0 left-0 w-full h-full scale-x-[-1] overflow-hidden">
                 <Image
-                    className="object-cover hue-rotate-[-5deg] scale-[120%] contrast-[120%] brightness-[60%] blur-sm"
-                    src={skillsBg}
+                    className="object-cover -hue-rotate-15"
+                    src={backgroundImage}
                     alt=""
                     fill={true}
                 />

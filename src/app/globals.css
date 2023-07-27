@@ -10,15 +10,15 @@
         @apply leading-loose text-neutral-300;
     }
     .text-1 {
-        @apply text-xl text-neutral-300 leading-loose;
+        @apply text-lg lg:text-xl text-neutral-300 leading-loose lg:leading-loose;
     }
 
     .section-title {
-        @apply text-4xl font-semibold mt-2;
+        @apply font-arial text-4xl lg:text-5xl font-semibold mt-2;
     }
 
     .section-subtitle {
-        @apply font-light text-teal-500;
+        @apply font-arial font-light text-teal-500;
     }
 
     .animate-marquee-right {
@@ -39,6 +39,23 @@
 
     .social-bar-link:last-child {
         @apply rounded-br;
+    }
+
+    .form-control {
+        @apply flex flex-col items-start w-full;
+    }
+
+    .form-control > label {
+        @apply text-sm font-medium text-neutral-100 ml-2;
+    }
+
+    .form-control > input,
+    .form-control > textarea {
+        @apply w-full bg-neutral-950 p-4 rounded-md mt-2;
+    }
+
+    .form-control > textarea {
+        @apply h-[14rem];
     }
 }
 
